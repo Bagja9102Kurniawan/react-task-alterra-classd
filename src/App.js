@@ -1,18 +1,20 @@
-import Style from './App.css';
-import Todo from "./component/Todo";
+import React, { useState } from 'react';
+import data from './data.json';
 
+//components
+import Header from "./Header";
+import ToDoList from "./ToDoList";
+
+import './App.css';
+ 
 function App() {
-  return (
-    <div>
-      <div className={Style.container}>
-        <h2>To Do App</h2>
-        <Todo id='1' title='Membuat Komponen' completed={true}/>
-        <Todo id='2' title='Unit Testing' completed={false}/>
-        <Todo id='3' title='Setup Development Environment' completed={true}/>
-        <Todo id='4' title='Deploy ke server' completed={false}/>
-      </div>
-    </div>
-  );
+ const [ toDoList, setToDoList] = useState(data);
+ return (
+   <div className="App">
+     <Header />
+     <ToDoList toDoList={toDoList}/>
+   </div>
+ );
 }
-
+ 
 export default App;
