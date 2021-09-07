@@ -1,0 +1,17 @@
+[{
+    "id": 1,
+    "task": "Membuat Komponen",
+    "complete": true
+  }, {
+    "id": 2,
+    "task": "Unit Testing",
+    "complete": false
+  }, {
+    "id": 3,
+    "task": "Setup Development Environment",
+    "complete": true
+  }, {
+    "id": 4,
+    "task": "Deploy ke server",
+    "complete": false
+  }]
