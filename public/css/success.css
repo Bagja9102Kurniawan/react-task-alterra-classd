@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing:border-box;
+   /* outline:1px solid ;*/
+  }
+  body{
+  background: #ffffff;
+  
+    
+  }
+  button {
+    position: absolute;
+width: 150px;
+height: 40px;
+left: 40px;
+top: 380px;
+
+background: #F47522;
+border-radius: 20px;
+font-family: 'Roboto', sans-serif;
+color: white;
+}
+  .tab { 
+    display:inline-block; 
+    margin-left: 80px; 
+}
+  .ped {
+      margin-top: 30px;
+      margin-left: 30px;
+  }
+  .card{
+    position: absolute;
+    width: 664px;
+    height: 490px;
+    left: 435px;
+    top: 151px;
+    
+    /* White */
+    background: #FFFFFF;
+    border: 1px solid #CCD7EB;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .foot{
+    position: fixed;
+    width: 2000px;
+    height: 250px;
+    left: 0px;
+    top: 510px;
+    
+    background: #EDF6FF;
+  }
+  .img{
+    position: fixed;
+    width: 160px;
+    height: 153px;
+    left: 350px;
+top: 547px;
+    
+    background: url(../img-dot@2x.png);
+  
+  .mt-0 {
+    margin-top: 0 !important;
+  }
+  
+  .ml-5 {
+    margin-left: ($spacer * .700) !important;
+  }
+  
+  .px-2 {
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+  }
+
+  .p-3 {
+    padding: $spacer !important;
+  }

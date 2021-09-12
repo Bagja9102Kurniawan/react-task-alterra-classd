@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"></link>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact Form</title>
+  </head>
+  <body>
+
+    <div class="container-fluid peding20">
+       
+        <div class="row">
+          <div class="col-5 peding-100">
+            
+            <img src="asset/charles-rRWiVQzLm7k-unsplash.jpg" class="g1" alt="" style="width:40%">
+            <img src="asset/logo-ALTA-v2@2x.png" class="g2" alt="" style="width:29%">
+            <img src="asset/blue.jpg" class="b1" alt="" style="width:40% ">
+          </div>
+   
+        <div class="col-6 peding-30">
+            <h1>Contact Us</h1>
+            <form role="form"  method="POST" action="/contact" data-toggle="validator">
+             
+                <div class="form-group">
+                  <label for="">Full Name</label>
+                  <input type="text" class="form-control" data-error="Full name Cannot be empty." class="form-control" name="nama" value="<%= qs.nama %>" placeholder="Your Name Here..." required>
+
+                  <!-- Error -->
+                  <div class="help-block with-errors"></div>
+                </div>
+             
+                <div class="form-group">
+                  <label for="">Email Address</label>
+                  <input type="email" class="form-control" data-error="Email Cannot be empty." name="email" value="<%= qs.email %>" placeholder="example@dom.com" required>
+                  
+
+                  <!-- Error -->
+                  <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Phone Number</label>
+                    <input type="text" class="form-control"  data-error="Phone Number Cannot be empty." name="phone" value="<%= qs.phone %>" placeholder="0845XXXXXXXXX" required>
+                    
+                    <div class="help-block with-errors"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="sel1">Nationality</label>
+                    <select class="form-control" name="pilihan" value="<%= qs.sel %>" placeholder="Selected" id="sel1">
+                      <option>Selected</option>
+                      <option>Indonesia</option>
+                      <option>Japan</option>
+                      <option>Thailand</option>
+                    </select>
+                  </div> 
+               
+             
+                <div class="form-group">
+                  <label for="">Message</label>
+                  <textarea name="pesan" class="form-control" id="pesan" cols="30" rows="7" data-error="Message Cannot be empty." value="<%= qs.pesan %>" placeholder="Your full message..." required></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+             
+                <input class="but" type="submit" value="Submit">
+             
+              </form>
+        </div>
+    </div>
+     
+ 
+    
+    
+        
+  </body>
+</html>

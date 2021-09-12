@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ body {
+    
+    background-image: url("../bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   
+ button {
+    position: absolute;
+width: 150px;
+height: 40px;
+left: 490px;
+top: 433px;
+
+background: #F47522;
+border-radius: 20px;
+font-family: 'Roboto', sans-serif;
+color: white;
+}
+.dua{
+    position: absolute;
+width: 521px;
+height: 100px;
+left: 488px;
+top: 249px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 85px;
+line-height: 100px;
+
+
+
+color: #19345E;
+}
+.tiga{
+    position: absolute;
+width: 387px;
+height: 41px;
+left: 490px;
+top: 370px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 41px;
+
+
+
+color: #19345E;
+
+
+
+}
+h1 {
+    position: absolute;
+width: 165px;
+height: 29px;
+left: 488px;
+top: 220px;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+
+color: #19345E;
+}
+.imgrounded{
+    
+position: absolute;
+width: 355px;
+height: 355px;
+left: 98px;
+top: 184px;
+
+background: url(../matthew-hamilton-tNCH0sKSZbA-unsplash.jpg);
+background-size: cover;
+border-radius: 177.5px;
+} 
+.home1 {
+    
+    font-family: 'Roboto', sans-serif ;
+    font-style: normal ;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F47522  !important;
+}
+.about1:hover {
+    color: blue !important;
+}
+.ex1:hover {
+    color: blue !important;
+}
+.con1:hover {
+    color: blue !important;
+}
+.about1 { 
+    
+
+    font-family: 'Roboto', sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #19345E !important;
+}
+
+.ex1 { 
+    
+
+    font-family: 'Roboto', sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #19345E !important;
+}
+.con1 { 
+    
+
+    font-family: 'Roboto', sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #19345E !important;
+}
